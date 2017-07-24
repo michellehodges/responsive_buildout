@@ -15,6 +15,8 @@
 
 */
 
+/*Mobile-first*/
+
 body{
     font-family: Palatino, Times, serif;
     background-color: #ddffdd;
@@ -46,7 +48,7 @@ a:hover{
     color: blue;
 }
 
-header{ 
+header{
     padding-bottom: 15px;
     margin-bottom: 20px;
     border-bottom: 2px solid #ddddff;
@@ -76,3 +78,33 @@ header{
 #main_nav a:hover{
     background: #ddddff;
 }
+
+#logo {
+  text-align: center;
+}
+
+#main_content {
+  background-color: #ddffff;
+  padding: 1em;
+  margin-bottom: 1em;
+}
+
+#sidebar_content div {
+  margin-bottom: 1em;
+  padding: 1em;
+  background-color: #ffffdd;
+}
+
+#sidebar_content {
+
+}
+
+#site_footer {
+  background-color: #ffc04d;
+  padding: 1.5em;
+  text-align: center;
+}
+/*Tablet*/
+
+
+/*Desktop*/
