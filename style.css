@@ -95,16 +95,36 @@ header{
   background-color: #ffffdd;
 }
 
-#sidebar_content {
-
-}
 
 #site_footer {
   background-color: #ffc04d;
   padding: 1.5em;
   text-align: center;
 }
+
 /*Tablet*/
+@media (min-width: 700px) {
+  #main_nav {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    width: 30%;
+    margin: 1em;
+    justify-content: space-around;
+    align-content: center;
+    width: 100%;
+  }
+
+  #main_nav a {
+    margin: 1em;
+    padding: 1em 4em;
+    width: 20%;
+  }
+
+}
 
 
 /*Desktop*/
+@media (min-width: 900px) {
+
+}
