@@ -108,8 +108,7 @@ header{
     display: flex;
     flex-direction: row;
     flex-wrap: nowrap;
-    width: 30%;
-    margin: 1em;
+    margin: 0;
     justify-content: space-around;
     align-content: center;
     width: 100%;
@@ -125,6 +124,28 @@ header{
 
 
 /*Desktop*/
+
 @media (min-width: 900px) {
 
+    #logo {
+      width: 20%;
+      display: inline-block;
+      text-align: left;
+    }
+
+    #main_nav {
+      display: inline-flex;
+      width: 70%;
+      float: right;
+    }
+
+    #main_nav a {
+      margin: 1em;
+      padding: 1em 2em;
+      width: 20%;
+    }
+
+    #main_nav a:last-child {
+      margin-right: 0px;
+    }
 }
